@@ -10,4 +10,8 @@ const DBConnection = async () => {
   }
 };
 
+// mongoose.connection.on('connected', () => {
+//   console.log('Mongoose connected to the database', mongoose.connection.name);
+// });
+
 export default DBConnection;
